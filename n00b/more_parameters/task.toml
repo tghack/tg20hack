@@ -1,0 +1,4 @@
+[task]
+name = "More Parameters"
+shortname = "more_parameters"
+super = "tutorial/shellcoding/server"

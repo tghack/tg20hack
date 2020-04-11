@@ -1,0 +1,4 @@
+[task]
+name = "Baby's First Assembly Code"
+shortname = "baby_asm"
+super = "tutorial/shellcoding/server"

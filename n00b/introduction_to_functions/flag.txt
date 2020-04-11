@@ -1,0 +1,1 @@
+TG20{is_this_functional_programming?}

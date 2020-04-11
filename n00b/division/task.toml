@@ -1,0 +1,4 @@
+[task]
+name = "Division"
+shortname = "division"
+super = "tutorial/shellcoding/server"

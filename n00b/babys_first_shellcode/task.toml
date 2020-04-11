@@ -1,0 +1,4 @@
+[task]
+name = "Baby's First Shellcode"
+shortname = "babys_first_shellcode"
+super = "tutorial/shellcoding/server"

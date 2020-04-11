@@ -1,0 +1,4 @@
+[task]
+name = "Registers Everywhere"
+shortname = "registers_everywhere"
+super = "tutorial/shellcoding/server"

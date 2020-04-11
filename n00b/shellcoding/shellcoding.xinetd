@@ -1,0 +1,16 @@
+service shellcoding
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /opt/wrap.sh
+        socket_type = stream
+        protocol = tcp
+        user = root
+        port = 1111
+        flags = REUSE
+        per_source = 5
+        rlimit_cpu = 3
+        nice = 18
+}
+
