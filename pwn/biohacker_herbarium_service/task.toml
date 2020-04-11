@@ -1,0 +1,6 @@
+[task]
+name = "The Biohacker's Herbarium Service"
+shortname = "plants"
+hostname = "plants"
+use_xinetd = true
+port = 6004

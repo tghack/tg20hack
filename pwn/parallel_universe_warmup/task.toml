@@ -1,0 +1,6 @@
+[task]
+name = "Parallel Universe: Warmup"
+shortname = "parallel"
+hostname = "parallel"
+use_xinetd = true
+port = 6004

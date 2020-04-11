@@ -1,0 +1,6 @@
+[task]
+name = "Parallel Universe: Quarantine Simulator"
+shortname = "parallel2"
+hostname = "parallel2"
+use_xinetd = true
+port = 6005

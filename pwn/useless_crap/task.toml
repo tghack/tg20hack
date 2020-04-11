@@ -1,0 +1,6 @@
+[task]
+name = "Useless Crap"
+shortname = "crap"
+hostname = "crap"
+use_xinetd = true
+port = 6001

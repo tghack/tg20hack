@@ -1,0 +1,5 @@
+[task]
+name = "Boofy"
+shortname = "boofy"
+hostname = "boofy"
+port = 6003

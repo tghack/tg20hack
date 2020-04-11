@@ -1,0 +1,15 @@
+service crap
+{
+	disable = no
+	type = UNLISTED
+	wait = no
+	server = /home/crap/run.sh
+	socket_type = stream
+	protocol = tcp
+	user = crap
+	port = 6001
+	flags = REUSE
+	per_source = 5
+	rlimit_cpu = 3
+	nice = 18
+}
