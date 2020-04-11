@@ -1,0 +1,78 @@
+Sleeping for 26 seconds
+Storing file: gibberish_8.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_8.txt`
+Storing at: http://kakekassa:3000/store/ed8f3d89b647acf962220684943edce426edd3efd7912d15d9ae8f48f16d3285c54bd3ddb88f7c51b8c514efc3b67ef47713992bef579847d96875add8ed23ca
+Stored ./files//gibberish_8.txt with the key "ab959d97a3c41867f95189cfaefa879b"
+Sleeping for 40 seconds
+Storing file: gibberish_10.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_10.txt`
+Storing at: http://kakekassa:3000/store/d17d3132666303dc1437cf9feae315f62fb5fe07060983d2c6aea561499a805de45ac2410f181076b8212382cf87d0c565042e0d804fee6fc4dc5fd014f21903
+Stored ./files//gibberish_10.txt with the key "d4959d97a3c41867f95189cfaefa87e4"
+Sleeping for 34 seconds
+Storing file: gibberish_4.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_4.txt`
+Storing at: http://kakekassa:3000/store/a8e361a3d384adeaba564d4fae1bb49e3c100c212f944397c06ac8459732bf6820b7bb657e5e6decc31b4241860ad17dd723d79bfc6c43e4cd05e6d4c31e3a6d
+Stored ./files//gibberish_4.txt with the key "f6959d97a3c41867f95189cfaefa87c6"
+Sleeping for 30 seconds
+Storing file: gibberish_11.txt
+    Finished release [optimized] target(s) in 0.19s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_11.txt`
+Storing at: http://kakekassa:3000/store/549a122ccb964c6b177156af7768a10f2249c19322c41b1e9ca9cd3e310af27647327c5a0e6f152638da9d204cf858f8ba657f0fffe69beacec402e947054e2f
+Stored ./files//gibberish_11.txt with the key "14929d97a3c41867f95189cfaefa8024"
+Sleeping for 5 seconds
+Storing file: gibberish_2.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_2.txt`
+Storing at: http://kakekassa:3000/store/4e7c26fca4e588b7a78337e183a83173f3f4efef83c1dcf1c47540d80a2f95041f490f791f2ccb9ae076eab7e17a669d592de91b2cf06f8734c1b09bb84a158c
+Stored ./files//gibberish_2.txt with the key "19929d97a3c41867f95189cfaefa8029"
+Sleeping for 27 seconds
+Storing file: gibberish_5.txt
+    Finished release [optimized] target(s) in 0.19s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_5.txt`
+Storing at: http://kakekassa:3000/store/1517c07a1a060af0d7067a47afe9b00cbe76eb3f18cff2093073afc50ddb2a12a385722fca9a95fb9bbaab6790909484f0ac479d6aba39ae27a5960efd39f08a
+Stored ./files//gibberish_5.txt with the key "34929d97a3c41867f95189cfaefa8004"
+Sleeping for 23 seconds
+Storing file: gibberish_12.txt
+    Finished release [optimized] target(s) in 0.19s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_12.txt`
+Storing at: http://kakekassa:3000/store/de0a0e37fbe865ed0412564b12b3e7c1fb1e967abf0dec3500453ec96c92f67bd0129c105c14be588ca59231a172c0660d04d9a493ee4c5dd111732c52f95681
+Stored ./files//gibberish_12.txt with the key "4c929d97a3c41867f95189cfaefa807c"
+Sleeping for 31 seconds
+Storing file: gibberish_3.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_3.txt`
+Storing at: http://kakekassa:3000/store/2e4012ecbeb9f1b715b61753fdc662075142865d2d4c84fa6cc9aeac93aa0feeec4864d2966f2739234dd8788321a7ce91fd8b0aa9ddbce6f47d63121324bbad
+Stored ./files//gibberish_3.txt with the key "6b929d97a3c41867f95189cfaefa805b"
+Sleeping for 46 seconds
+Storing file: flag.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//flag.txt`
+Storing at: http://kakekassa:3000/store/95f6517b615b18c6b225e06fba3092a6b5f7e277b197e1308743ae5fba0f1fb40e5727b7386999c8d2ff70309ada97d407d21651f8261d1ba15fac4e75d75b93
+Stored ./files//flag.txt with the key "99929d97a3c41867f95189cfaefa80a9"
+Sleeping for 27 seconds
+Storing file: gibberish_6.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_6.txt`
+Storing at: http://kakekassa:3000/store/4e5a6750a02498119e18408a786628471a836a77c75ac7e2227be6dbc7ac4a6321d6cb69ec30e9f8a1c9a8bb321970d3ec16946865485b9f3d8eaf71629e20da
+Stored ./files//gibberish_6.txt with the key "b4929d97a3c41867f95189cfaefa8084"
+Sleeping for 38 seconds
+Storing file: gibberish_7.txt
+    Finished release [optimized] target(s) in 0.19s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_7.txt`
+Storing at: http://kakekassa:3000/store/8338a1cf62339f17ed497e7c4bb4dfafdb292b539fa5f60d71e58bb883179c4a949812f59cc701755ec5dc803b6f06f7d818dc8e4068ca297ca8fa227c86a733
+Stored ./files//gibberish_7.txt with the key "db929d97a3c41867f95189cfaefa80eb"
+Sleeping for 42 seconds
+Storing file: gibberish_9.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_9.txt`
+Storing at: http://kakekassa:3000/store/ef7492afb37a4a670adac50c7266b4387e7e57d3f73a6c461ad911fb0252d7edb9b17e6d4211dbdca56d85465b45880eaf88a3a89cd16d1e56d307960c850655
+Stored ./files//gibberish_9.txt with the key "05939d97a3c41867f95189cfaefa8135"
+Sleeping for 11 seconds
+Storing file: gibberish_1.txt
+    Finished release [optimized] target(s) in 0.09s
+     Running `/home/nikolai/Seafile/Programming/tg20hack/crypto/backup/src/client/target/release/client store 'http://kakekassa:3000' ./files//gibberish_1.txt`
+Storing at: http://kakekassa:3000/store/dea8b241a43ccfd6371b4b2d32c56d8760446b031ce66c98b826bb85de123601e31d47d737ec2c45c038b7c058d5ce1d39a629e71b72105c2cef76641dad9783
+Stored ./files//gibberish_1.txt with the key "10939d97a3c41867f95189cfaefa8120"

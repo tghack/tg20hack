@@ -1,0 +1,1 @@
+TG20{luckily_not_all_ransomware_properly_generates_random_keys}

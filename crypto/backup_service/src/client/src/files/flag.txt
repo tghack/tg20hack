@@ -1,0 +1,1 @@
+TG20{reversing_crypto_can_be_difficult_and_it_is_very_important_to_generate_keys_with_enough_entropy}

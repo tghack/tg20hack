@@ -1,0 +1,16 @@
+Start
+	LoadEncryptionEngine
+		SetShiftrSetTmp 7
+		SetXorTmp
+		SetShiftlSetTmp 9
+		SetXorTmp
+		SetShiftrSetTmp 13
+		SetXorTmp
+	CompileEncryptionEngine
+	GetEntropy
+	InitEncryptionEngine 0
+    LoadData 1 TG20{virtual_machines_can_be_notoriously_difficult_to_reverse}
+	EncryptData 1
+	LoadData 2 localhost:1337
+	ConnectAndSend 2 1
+Stop
