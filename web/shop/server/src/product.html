@@ -1,0 +1,11 @@
+<tr>
+    <td>{{price}}$</td>
+    <td>{{name}}</td>
+    <td>
+        <form action="{{action}}" method="POST">
+            <input type="hidden" name="sum" value="{{price}}">
+            <input type="hidden" name="id" value="{{id}}">
+            <input type="submit" value="Buy">
+        </form>
+    </td>
+</tr>

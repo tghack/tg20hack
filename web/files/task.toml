@@ -1,0 +1,6 @@
+[task]
+name = "files"
+shortname = "files"
+hostname = "files.tghack.no"
+port = 4005
+web = true

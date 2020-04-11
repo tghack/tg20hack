@@ -1,0 +1,6 @@
+[task]
+name = "Shop"
+shortname = "shop"
+hostname = "shop.tghack.no"
+port = 4004
+web = true

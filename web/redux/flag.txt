@@ -1,0 +1,1 @@
+TG20{always_disable_redux_dev_tools}

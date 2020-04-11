@@ -1,0 +1,6 @@
+[task]
+name = "Exfiltration"
+shortname = "exfiltration"
+hostname = "exfiltration.tghack.no"
+port = 4001
+web = true

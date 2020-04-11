@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Bank</title>
+<style>
+form {
+    vertical-align:middle;
+}
+</style>
+    </head>
+    <body>
+        <div><a href="{{store}}">store</a></div>
+        <div>
+            <form action="{{action}}" method="POST">
+                <input type="text" name="borrow">
+                <input type="submit" value="Borrow money">
+            </form>
+        </div>
+        <div>
+            <form action="{{action}}" method="POST">
+                <input type="text" name="repay">
+                <input type="submit" value="Repay money">
+            </form>
+        </div>
+        <div>
+            {{error}}
+        </div>
+        <div>
+            {{statement}}
+        </div>
+    </body>
+</html>

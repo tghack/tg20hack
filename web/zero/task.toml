@@ -1,0 +1,6 @@
+[task]
+name = "Zero"
+shortname = "zero"
+hostname = "zero.tghack.no"
+port = 4002
+web = true

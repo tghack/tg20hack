@@ -1,0 +1,41 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Login</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="/style"></link>
+    <body>
+        <div id="outer">
+            <div id="box">
+                <form method="post" action="/login">
+                    <div class="line">
+                        <div class="left">
+                            Username
+                        </div>
+                        <div class="right">
+                            <input type="text" name="user">
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            Password
+                        </div>
+                        <div class="right">
+                            <input type="password" name="pass">
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="right">
+                            <input type="submit" value="Login">
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="right">
+                            <a href="/password" class="link">Change password</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

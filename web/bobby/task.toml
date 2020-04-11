@@ -1,0 +1,6 @@
+[task]
+name = "bobby"
+shortname = "bobby"
+hostname = "bobby.tghack.no"
+port = 4000
+web = true
