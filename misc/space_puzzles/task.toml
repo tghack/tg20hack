@@ -1,0 +1,5 @@
+[task]
+name = "Space Puzzle"
+shortname = "puzzle"
+hostname = "puzzle"
+port = 7002 

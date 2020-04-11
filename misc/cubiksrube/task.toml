@@ -1,0 +1,5 @@
+[task]
+name = "Cubik's Rube"
+shortname = "cubiks"
+hostname = "cubiks.tghack.no"
+port = 7001

@@ -1,0 +1,7 @@
+[task]
+name = "Professor Doctrina"
+shortname = "doctrina"
+hostname = "doctrina.tghack.no"
+port = 7000
+web = true
+

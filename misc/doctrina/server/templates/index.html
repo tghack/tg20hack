@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="description" content="">
+    <title>Prof. Saver of Gaia</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+    <link href={{ url_for("static", filename="bootstrap.min.css") }} rel="stylesheet">
+    <link href={{ url_for("static", filename="signin.css") }} rel="stylesheet">
+
+
+    <style>
+      body {
+        background-color: black;
+        color: #55ff55;
+        font-family: monospace;
+        font-size:26px;
+
+      }
+      .output {
+        display:none;
+      }
+      .active:after {
+        content: '|';
+      }
+    </style>
+  </head>
+  <body style="background-color: black">
+    <form class="form-signin" method="post">
+        <main class="prompt">
+        {% if message is defined %}
+      <h2 class="h3 mb-3 font-weight-normal">{{ message }}</h2>
+		{% else %}
+      <h2 class="h3 mb-3 font-weight-normal">Welcome back professor,</h2>
+      <h2 class="h3 mb-3 font-weight-normal">prove yourself,</h2>
+      <h2 class="h3 mb-3 font-weight-normal">and you shall pass!</h2>
+        {% endif %}
+        </main>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" name="password" placeholder="Password" required>
+        <button class="btn btn-lg btn-dark btn-block" type="submit">Sign in</button>
+    <script>
+        var $lines = $(".prompt h2");
+        $lines.hide();
+		var lineContents = new Array();
+
+		var terminal = function() {
+
+		  var skip = 0;
+		  typeLine = function(idx) {
+			idx == null && (idx = 0);
+			var element = $lines.eq(idx);
+			var content = lineContents[idx];
+			if(typeof content == "undefined") {
+			  $('.skip').hide();
+			  return;
+			}
+			var charIdx = 0;
+
+			var typeChar = function() {
+			  var rand = Math.round(Math.random() * 150) + 25;
+
+			  setTimeout(function() {
+				var char = content[charIdx++];
+				element.append(char);
+				if(typeof char !== "undefined")
+				  typeChar();
+				else {
+				  element.append('<br/><span class="output">' + element.text().slice(9, -1) + '</span>');
+				  element.removeClass('active');
+				  typeLine(++idx);
+				}
+			  }, skip ? 0 : rand);
+			}
+			content = '' + content + '';
+			element.append(' ').addClass('active');
+			typeChar();
+		  }
+
+		  $lines.each(function(i) {
+			lineContents[i] = $(this).text();
+			$(this).text('').show();
+		  });
+
+		  typeLine();
+		}
+
+		terminal();
+        console.log("{{ features }}");
+    </script>
+    </form>
+</body>
+</html>
+
