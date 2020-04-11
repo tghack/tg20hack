@@ -10,7 +10,7 @@
 We are given a binary and a libc. After some basic reverse engineering, we get
 an idea of what the binary is doing. First, it uses seccomp to set up a sandbox,
 filtering out unwanted syscalls. Then, we can either read or write from/to
-arbitrary memory addresses. However, we are only allowed to read/write once!
+arbitrary memory addresses. However, we are only allowed to read/write twice!
 
 In addition, we can leave feedback, but we're only allowed to do so once. We can
 also read it back afterwards.
