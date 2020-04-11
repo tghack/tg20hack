@@ -1,0 +1,9 @@
+[task]
+name = "Shellcoding Tutorial"
+shortname = "shellcoding"
+hostname = ["shellcode"]
+use_xinetd = true
+
+[ports]
+tcp = [1111]
+udp = []
