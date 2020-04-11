@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gaia Invaders</string>
+    <string name="home_title">Invaders</string>
+    <string name="gaia_logo_description">Gaia logo</string>
+    <string name="invader_img_description">Invader image</string>
+    <string name="btn_play_game">Play game</string>
+    <string name="intent_joke">What do you call a camping convict?</string>
+    <string name="get_answer_button">Gief answer!</string>
+    <string name="joke_answer">lolol</string>
+</resources>

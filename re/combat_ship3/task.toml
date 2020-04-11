@@ -1,0 +1,10 @@
+[task]
+name = "Combat Ship RE 3"
+shortname = "combatship3"
+hostname = ["combatship3"]
+use_xinetd = true
+service_name = "re_noob3"
+
+[ports]
+tcp = [5001]
+udp = []

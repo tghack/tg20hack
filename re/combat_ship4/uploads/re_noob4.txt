@@ -1,0 +1,55 @@
+0000000000000a07 <start>:
+ a07:	55                   	push   rbp
+ a08:	48 89 e5             	mov    rbp,rsp
+ a0b:	48 83 ec 50          	sub    rsp,0x50
+ a0f:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+ a16:	00 00 
+ a18:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+ a1c:	31 c0                	xor    eax,eax
+ a1e:	48 8d 3d ab 01 00 00 	lea    rdi,[rip+0x1ab]        # bd0 <part1+0x18>
+ a25:	e8 a6 fd ff ff       	call   7d0 <puts@plt>
+ a2a:	48 8d 3d c1 01 00 00 	lea    rdi,[rip+0x1c1]        # bf2 <part1+0x3a>
+ a31:	e8 9a fd ff ff       	call   7d0 <puts@plt>
+ a36:	48 8b 15 f3 15 20 00 	mov    rdx,QWORD PTR [rip+0x2015f3]        # 202030 <stdin@@GLIBC_2.2.5>
+ a3d:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+ a41:	be 20 00 00 00       	mov    esi,0x20
+ a46:	48 89 c7             	mov    rdi,rax
+ a49:	e8 d2 fd ff ff       	call   820 <fgets@plt>
+ a4e:	48 8d 45 d0          	lea    rax,[rbp-0x30]
+ a52:	48 8d 35 b1 01 00 00 	lea    rsi,[rip+0x1b1]        # c0a <part1+0x52>
+ a59:	48 89 c7             	mov    rdi,rax
+ a5c:	e8 af fd ff ff       	call   810 <strcspn@plt>
+ a61:	c6 44 05 d0 00       	mov    BYTE PTR [rbp+rax*1-0x30],0x0
+ a66:	48 8b 15 a3 15 20 00 	mov    rdx,QWORD PTR [rip+0x2015a3]        # "1337"
+ a6d:	b9 2a 00 00 00       	mov    ecx,0x2a
+ a72:	48 8d 45 b0          	lea    rax,[rbp-0x50]
+ a76:	49 89 d0             	mov    r8,rdx
+ a79:	48 8d 15 8c 01 00 00 	lea    rdx,[rip+0x18c]        # "%d %s"
+ a80:	be 20 00 00 00       	mov    esi,0x20
+ a85:	48 89 c7             	mov    rdi,rax
+ a88:	b8 00 00 00 00       	mov    eax,0x0
+ a8d:	e8 6e fd ff ff       	call   800 <snprintf@plt>
+ a92:	48 8d 55 d0          	lea    rdx,[rbp-0x30]
+ a96:	48 8d 45 b0          	lea    rax,[rbp-0x50]
+ a9a:	48 89 d6             	mov    rsi,rdx
+ a9d:	48 89 c7             	mov    rdi,rax
+ aa0:	e8 8b fd ff ff       	call   830 <strcmp@plt>
+ aa5:	85 c0                	test   eax,eax
+ aa7:	75 28                	jne    ad1 <start+0xca>
+ aa9:	48 8d 3d 68 01 00 00 	lea    rdi,[rip+0x168]        # c18 <part1+0x60>
+ ab0:	e8 1b fd ff ff       	call   7d0 <puts@plt>
+ ab5:	b8 00 00 00 00       	mov    eax,0x0
+ aba:	e8 cb fe ff ff       	call   98a <print_flag>
+ abf:	90                   	nop
+ ac0:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+ ac4:	64 48 33 04 25 28 00 	xor    rax,QWORD PTR fs:0x28
+ acb:	00 00 
+ acd:	74 1d                	je     aec <start+0xe5>
+ acf:	eb 16                	jmp    ae7 <start+0xe0>
+ ad1:	48 8d 3d 6c 01 00 00 	lea    rdi,[rip+0x16c]        # c44 <part1+0x8c>
+ ad8:	e8 f3 fc ff ff       	call   7d0 <puts@plt>
+ add:	bf 00 00 00 00       	mov    edi,0x0
+ ae2:	e8 79 fd ff ff       	call   860 <exit@plt>
+ ae7:	e8 04 fd ff ff       	call   7f0 <__stack_chk_fail@plt>
+ aec:	c9                   	leave  
+ aed:	c3                   	ret    

@@ -1,0 +1,9 @@
+[task]
+name = "Combat Ship RE 2"
+shortname = "combatship2"
+hostname = ["combatship2"]
+use_xinetd = true
+
+[ports]
+tcp = [5000]
+udp = []
