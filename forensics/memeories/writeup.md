@@ -113,7 +113,7 @@ python volatility3/vol.py -f host.vmem windows.pstree
 * 972	596	dwm.exe	0xbc8f116e2080	14	-	1	False	2019-10-20 21:11:11.000000 	N/A
 ```
 
-Just by looking at the process tree we get a pretty nice overview of what processes was run on this host and we can already see a very suspicious process ```wandows (2).ex`` that was launched from a browser and has a commandline process that launched powershell as children processes.
+Just by looking at the process tree we get a pretty nice overview of what processes was run on this host and we can already see a very suspicious process ```wandows (2).ex``` that was launched from a browser and has a commandline process that launched powershell as children processes.
 However, we do not see any traces of 7zip usage here.
 To follow up this we can use other plugins like ```windows.psscan``` that can find processes that hides itself and terminated processes or ```windows.cmdline``` to get cmd history. Unfortunatly, this did not give us any hints on the password of the archive. In general its a good thumb rule to never 100% trust the tool, so we continue on using a simpler, yet effective method: ```strings```.
 
