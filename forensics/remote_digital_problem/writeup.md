@@ -166,7 +166,7 @@ $ replay/rdp_replay -r ../capture.pcap -p ../win.pem -o ~/Documents/RDP-Replay/v
 
 However it doesn't seem like this works. It says that it found a valid SSL private key, but nothing happens. 
 This is because there is a broken RDP session in the beginning of the PCAP file that needs to be removed. 
-After stripping the PCAP file it works and will play a nice movie of what happened during the RDP session.
+After stripping/removing the first 17 packets in the PCAP file (with a tool like **editcap**) it works and will play a nice movie of what happened during the RDP session.
 
 ![RDP video](imgs/rdp.png)
 
