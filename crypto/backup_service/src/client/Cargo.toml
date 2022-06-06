@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 reqwest = "0.10"
-tokio = { version = "0.2", features = ["full"] }
+tokio = { version = "1.8", features = ["full"] }
 structopt = "0.3"
 blake2 = "0.8"
 rand = "0.7"
